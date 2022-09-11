@@ -1,19 +1,20 @@
 #include <stdlib.h>
+
 #include <time.h>
-#include <time.h>
 
-/* 
- * File: 0-positive_or_negative.c
- */
+#include <stdio.h>
 
 
 
-/* 
- * main - Prints a number if it is positive, zero or negative
+/**
  *
- * Description: using the main function
- * Return: Always 0.
- * */
+ *  * main - Prints if number is positive, zero or negative
+ *
+ *   *
+ *
+ *    * Return: Always (Success)
+ *
+ *     */
 
 int main(void)
 
@@ -26,21 +27,37 @@ int main(void)
 			srand(time(0));
 
 				n = rand() - RAND_MAX / 2;
-				/* your code gors there*/
+
+
 
 					if (n > 0)
-					{
-						printf("%d is positive\n", n);
-					}
-					else if (n == 0)
-					{
-						printf("%d is zero\n", n);
-					}
-					else if (n < 0)
-					{
-						printf("%d is negative\n", n);
-					}
 
-					return (0);
+							{
+
+										printf("%d is positive\n", n);
+
+											}
+
+						else if (n == 0)
+
+								{
+
+											printf("%d is zero\n", n);
+
+												}
+
+							else
+
+									{
+
+												printf("%d is negative\n", n);
+
+													}
+
+
+
+								return (0);
 
 }
+
+
