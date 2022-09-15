@@ -4,11 +4,11 @@
  * @a: first integer
  * @b: second integer
  * @c: third integer
- * Return: largest integer
+ * Return: largest number
  */
 int largest_number(int a, int b, int c)
 {
-	int lergest;
+	int largest;
 
 	if (a >= b && a >= c)
 	{
