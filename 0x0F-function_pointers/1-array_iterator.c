@@ -11,11 +11,11 @@ int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i, r;
 
+	r = cmp(array[i]);
 	if (size > 0 && array && cmp)
 	{
 		for (i = 0; i < size; i++)
 		{
-			r = cmp(array[i]);
 			if (r)
 				break;
 		}
